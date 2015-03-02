@@ -1,3 +1,7 @@
+d_jonux_user:
+    resource: "@DJonuxUserBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: @AppBundle/Controller/
     type:     annotation
