@@ -3,5 +3,5 @@ d_jonux_user:
     prefix:   /
 
 app:
-    resource: @AppBundle/Controller/
+    resource: "@AppBundle/Controller/"
     type:     annotation
