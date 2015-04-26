@@ -8,8 +8,8 @@
     <field name="password" type="string" column="password" length="255"/>
     <field name="salt" type="string" column="salt" length="255"/>
     <field name="name" type="string" column="name" length="255"/>
-    <field name="$email" type="string" column="$email" length="255"/>
-    <field name="$token" type="string" column="$token" length="255"/>
+    <field name="email" type="string" column="email" length="255"/>
+    <field name="token" type="string" column="token" length="255"/>
     <field name="lastaccess" type="datetime" column="lastaccess"/>
   </entity>
 </doctrine-mapping>

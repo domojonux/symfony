@@ -19,8 +19,8 @@ class UserType extends AbstractType
             ->add('password')
             ->add('salt')
             ->add('name')
-            ->add('$email')
-            ->add('$token')
+            ->add('email')
+            ->add('token')
             ->add('lastaccess')
         ;
     }

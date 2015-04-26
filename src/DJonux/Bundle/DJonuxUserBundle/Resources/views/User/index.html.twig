@@ -10,8 +10,8 @@
                 <th>Password</th>
                 <th>Salt</th>
                 <th>Name</th>
-                <th>$email</th>
-                <th>$token</th>
+                <th>email</th>
+                <th>token</th>
                 <th>Lastaccess</th>
                 <th>Id</th>
                 <th>Actions</th>
@@ -24,8 +24,8 @@
                 <td>{{ entity.password }}</td>
                 <td>{{ entity.salt }}</td>
                 <td>{{ entity.name }}</td>
-                <td>{{ entity.$email }}</td>
-                <td>{{ entity.$token }}</td>
+                <td>{{ entity.email }}</td>
+                <td>{{ entity.token }}</td>
                 <td>{% if entity.lastaccess %}{{ entity.lastaccess|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{{ entity.id }}</td>
                 <td>
