@@ -155,7 +155,7 @@ class User
     /**
      * Set email
      *
-     * @param string $$email
+     * @param string $email
      * @return User
      */
     public function setEmail($email)
@@ -178,7 +178,7 @@ class User
     /**
      * Set token
      *
-     * @param string $$token
+     * @param string $token
      * @return User
      */
     public function setToken($token)
